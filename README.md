@@ -44,11 +44,11 @@ Highlight gaps in the inventory and optimize stock levels.
 
 2. What is the total number of movies in the inventory that are available for rent at the lowest rental rate of $0.99?
 
-
+[<img src="CODE OUTPUT/CHEAPEST RENTALS.PNG" width="300"/>]&nbsp;
 
 3. How can we categorize all movies based on their rental rates and determine the count of movies in each category?
 
-
+[<img src="CODE OUTPUT/rental rate category.PNG" width="300"/>]&nbsp;
 
 4. Which movie rating (e.g., PG, PG-13, R) has the highest number of titles in the inventory, and how can this information help optimize inventory management?
 
