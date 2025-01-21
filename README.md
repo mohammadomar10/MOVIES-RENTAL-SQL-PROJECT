@@ -24,31 +24,31 @@ The database contains the following tables:
 
 * CUSTOMER: Customer details such as name, email, and activity status.
 
-  <img src="Code_Output/CUSTOMER TABLE.PNG" width="550" height="150"/>&nbsp;
+  <img src="CODE OUTPUTS/CUSTOMER_TABLE.png" width="550" height="150"/>&nbsp;
 
 * RENTAL: Records of movie rentals.
 
-  <img src="Code_Output/RENTAL TABLE.PNG" width="550" height="150"/>&nbsp;
+  <img src="CODE OUTPUTS/RENTAL TABLE.png" width="550" height="150"/>&nbsp;
 
 * INVENTORY: Inventory information for each store.
 
-  <img src="Code_Output/INVENTORY TABLE.PNG" width="400" height="150"/>&nbsp;
+  <img src="CODE OUTPUTS/INVENTORY TABLE.png" width="400" height="150"/>&nbsp;
 
 * FILM: Movie details including title, rating, rental rate, and special features.
 
-  <img src="Code_Output/FILM TABLE.PNG" width="550" height="150"/>&nbsp;
+  <img src="CODE OUTPUTS/FILM TABLE .png" width="550" height="150"/>&nbsp;
 
 * FILM_CATEGORY: Categories associated with films.
 
-  <img src="Code_Output/film_category.PNG" height="150"/>&nbsp;
+  <img src="CODE OUTPUTS/film_category.png" height="150"/>&nbsp;
 
 * PAYMENT: Payment transactions.
 
-  <img src="Code_Output/payment_table.PNG" height="150"/>&nbsp;
+  <img src="CODE OUTPUTS/payment_table.png" height="150"/>&nbsp;
 
  ## Tools & Library Used
 
-  [<img src="Code_Output/Mysql_logo.png" width="100"/>](https://www.mysql.com/) &nbsp;
+  [<img src="CODE OUTPUTS/Mysql_logo.png" width="100"/>](https://www.mysql.com/) &nbsp;
   
 ## Project Result
 
@@ -58,7 +58,7 @@ The database contains the following tables:
 
 1. Extract the first name, last name, and email address of all customers to prepare a comprehensive contact list for the marketing team.
 
- <img src="Code_Output/email ids.PNG"  height="150"  />&nbsp;
+ <img src="CODE OUTPUTS/email ids.png"  height="150"  />&nbsp;
 
 2. Analyze the rental rates and determine the number of movies in each rental category.
 
