@@ -20,7 +20,7 @@ The database contains the following tables:
 
 * ACTOR: Actor details such as first name, last name, actor id.
 
-  <img src="Code_Output/actor_table.PNG" width="550" height="150"/>&nbsp; 
+  <img src="CODE OUTPUTS/ACTOR TABLE.png" width="550" height="150"/>&nbsp; 
 
 * CUSTOMER: Customer details such as name, email, and activity status.
 
