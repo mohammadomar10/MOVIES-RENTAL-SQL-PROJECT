@@ -62,119 +62,119 @@ The database contains the following tables:
 
 2. Analyze the rental rates and determine the number of movies in each rental category.
 
- <img src="Code_Output/rental rate category.PNG" />&nbsp;
+ <img src="CODE OUTPUTS/rental rate category .png" />&nbsp;
 
 3. Find the rating category with the most films.
 
- <img src="Code_Output/RATING CATEGORY COUNT.PNG" />&nbsp;
+ <img src="CODE OUTPUTS/RATING CATEGORY COUNT.png" />&nbsp;
 
 4. Find the most prevalent rating in each store.
 
- <img src="Code_Output/RATING CATEGORY PER STORE.PNG" />&nbsp;
+ <img src="CODE OUTPUTS/RATING CATEGORY PER STORE .png" />&nbsp;
 
 5. List of films with their Name, Category, and Language.
 
-<img src="Code_Output/TITLE_LANG_CATEGORY.PNG" />&nbsp;
+<img src="CODE OUTPUTS/TITLE_LANG_CATEGORY.png" />&nbsp;
 
 6. Count how many times each movie has been rented.
 
-<img src="Code_Output/POPULARITY_MOST_RENTAL.PNG" />&nbsp;
+<img src="CODE OUTPUTS/POPULARITY_MOST_RENTAL.png" />&nbsp;
 
 7. Top 10 films by revenue
 
-<img src="Code_Output/TOP 10 REVENUE.PNG" />&nbsp;
+<img src="CODE OUTPUTS/TOP 10 REVENUE .png" />&nbsp;
 
 8. Customer with the highest spending
 
-<img src="Code_Output/TOP 1 SPENDING CUST.PNG" />&nbsp;
+<img src="CODE OUTPUTS/TOP 1 SPENDING CUST.png" />&nbsp;
 
 9. Which store has brought the most revenue
 
-<img src="Code_Output/PER STORE REVENUE.PNG" />&nbsp;
+<img src="CODE OUTPUTS/PER STORE REVENUE.png" />&nbsp;
 
 10. How many rentals do we have for each month
 
-<img src="Code_Output/RENTALS_PER_MONTH.PNG" />&nbsp;
+<img src="CODE OUTPUTS/RENTAL_PER_MONTH.png" />&nbsp;
 
 11. Identify and reward customers who have rented a minimum of 30 times, including their phone number and email ID
 
-<img src="Code_Output/LOYAL_30_CUST_ALL_DESC.PNG" />&nbsp;
+<img src="CODE OUTPUTS/LOYAL_30_CUST_ALL_DESC.png" />&nbsp;
 
 12. Retrieve all payment records for the first 100 customers, ordered by customer ID
 
-<img src="Code_Output/FIRST_100_CUST.PNG" />&nbsp;
+<img src="CODE OUTPUTS/FIRST_100_CUST.png" />&nbsp;
 
 13. Retrieve payment records over $5 for the first 100 customers (ordered by customer ID), since January 1, 2006
 
-<img src="Code_Output/OVER_$5_.PNG" />&nbsp;
+<img src="CODE OUTPUTS/OVER_$5_.png" />&nbsp;
 
 14. Retrieve all payment records from the first 100 customers, along with payments over $5 from any customer
 
-<img src="Code_Output/SPECIFIC_CUST.PNG" />&nbsp;
+<img src="CODE OUTPUTS/SPECIFIC_CUST.png" />&nbsp;
 
 15. Retrieve a list of films that include a 'Behind the Scenes' special feature
 
-<img src="Code_Output/SPECIAL_FEATURES.PNG" />&nbsp;
+<img src="CODE OUTPUTS/SPECIAL FEATURES.png" />&nbsp;
 
 16. Retrieve unique movie ratings along with the count of movies for each rating
 
-<img src="Code_Output/RATING_NOOF_MOVIES.PNG" />&nbsp;
+<img src="CODE OUTPUTS/RATING_NOOF_MOVIES.png" />&nbsp;
 
 17. Retrieve a count of titles, grouped by rental duration
 
-<img src="Code_Output/RATING_RENTAL_SLICED_@.PNG" />&nbsp;
+<img src="CODE OUTPUTS/RATING_RENTAL_SLICED_@.png" />&nbsp;
 
 18. Retrieve movie ratings, the count of movies for each rating, average movie length, and compare with rental duration
 
-<img src="Code_Output/RATING_COUNT_LENGTH.PNG" />&nbsp;
+<img src="CODE OUTPUTS/RATING_COUNT_LENGTH.png" />&nbsp;
 
 19. Retrieve the count of films, along with the average, minimum, and maximum rental rates, grouped by replacement cost 
 
-<img src="Code_Output/REPLACEMENT_COST_IF.PNG" />&nbsp;
+<img src="CODE OUTPUTS/REPLACEMENT_COST_IF.png" />&nbsp;
 
 20. Retrieve a list of customer IDs who have rented fewer than 15 times in total
 
-<img src="Code_Output/LESS_THAN_15_RENT.PNG" />&nbsp;
+<img src="CODE OUTPUTS/LESS_THAN_15_RENT.png" />&nbsp;
 
 21. Retrieve a list of all film titles, along with their lengths and rental rates, sorted from longest to shortest
 
-<img src="Code_Output/length&rentalprice.PNG" />&nbsp;
+<img src="CODE OUTPUTS/length&rentalprice.png" />&nbsp;
 
 22. Categorize movies as per length
 
-<img src="Code_Output/movies_length_bucket.PNG" />&nbsp;
+<img src="CODE OUTPUTS/movies_length_bucket.png" />&nbsp;
 
 23. Categorize movies to recommend based on various age groups and demographics
 
-<img src="Code_Output/recomm_sys.PNG" />&nbsp;
+<img src="CODE OUTPUTS/recomm. sys.png" />&nbsp;
 
 24. Retrieve a list of the first and last names of all customers, along with their store and activity status (e.g., 'store 1 active', 'store 1 inactive', 'store 2 active', or 'store 2 inactive')
 
-<img src="Code_Output/CUST_STORE_ACTIVITY.PNG" />&nbsp;
+<img src="CODE OUTPUTS/CUST_STORE_ACTIVITY.png" />&nbsp;
 
 25. Retrieve a list of all films in inventory, including the film title, description, associated store_id, and inventory_id
 
-<img src="Code_Output/FILM_INVENTORY.PNG" />&nbsp;
+<img src="CODE OUTPUTS/FILM_INVENTORY.png" />&nbsp;
 
 26. Retrieve the first name, last name, and the count of movies for each actor
 
-<img src="Code_Output/ACTOR_NO_OF_FILMS.PNG" />&nbsp;
+<img src="CODE OUTPUTS/ACTOR_NO_OF_FILMS.png" />&nbsp;
 
 27. Retrieve a list of all film titles, along with the count of actors associated with each title
 
-<img src="Code_Output/INVESTOR_REQUEST.PNG" />&nbsp;
+<img src="CODE OUTPUTS/INVESTOR_REQUEST.png" />&nbsp;
 
 28. Retrieve a list of all actors, along with the titles of the films they appear in
 
-<img src="Code_Output/ACTOR_N_APPEARANCE.PNG" />&nbsp;
+<img src="CODE OUTPUTS/ACTOR_N_APPEARANCE.png" />&nbsp;
 
 29. Retrieve a list of distinct film titles and their descriptions currently available in the inventory at Store 2
 
-<img src="Code_Output/EXPANSION.PNG" />&nbsp;
+<img src="CODE OUTPUTS/EXPANSION .png" />&nbsp;
 
 30. Retrieve a unified list of all staff and advisor names, including a column indicating their role as either 'Staff' or 'Advisor'
 
-<img src="Code_Output/CONFERENCE_LIST.PNG" />&nbsp;
+<img src="CODE OUTPUTS/CONFERENCE_LIST.png" />&nbsp;
 
 ## Insights and Conclusions
 
