@@ -1,89 +1,221 @@
-# MOVIES-RENTAL-SQL-PROJECT
-# Maven_Movies_Rental_DA
-Data analysis of movies CD/DVD rental (transactions) and inventory
+# MOVIE_RENTAL_SHOP_DATA_ANALYSIS_SQL_PROJECT
 
-# Maven Movies Data Analysis: Enhancing Insights for a Rental Business
+## Overview
 
-## Project Overview:
-This project analyzes a movie rental business's database to provide actionable insights for improving operations, marketing strategies, and inventory management. The dataset is hosted in the MAVENMOVIES database, and SQL was extensively used for exploratory data analysis (EDA), schema understanding, and answering business-critical ad-hoc queries.
+This repository contains SQL scripts designed to analyze data from a rental movie business database. The project focuses on answering key business questions, providing insights into customer behavior, inventory management, revenue generation, and operational efficiency. It utilizes various SQL techniques to extract and analyze data from a relational database.
 
-## Project Objectives:
+## Project Objectives
 
-### Customer Insights:
+* Explore the database schema and understand the relationships between tables.
 
-Identify customer details (names, emails) for targeted marketing campaigns.
-Analyze customer rental patterns to improve customer engagement.
+* Analyze rental patterns, customer activity, and revenue streams.
 
-### Movie Inventory Analysis:
+* Provide actionable insights for marketing, inventory management, and business operations.
 
-Explore the rental inventory and classify movies based on rental rates and availability.
-Provide recommendations for expanding the movie collection based on popularity and rental rates.
-Revenue Optimization:
+* Answer specific business questions using SQL queries.
 
-Analyze rental rates to identify trends and the profitability of various pricing categories.
-Determine the most rented movie categories and ratings to maximize revenue.
+## Database Schema
 
-### Operational Efficiency:
+The database contains the following tables:
 
-Help track and manage movie inventory effectively.
-Highlight gaps in the inventory and optimize stock levels.
+* ACTOR: Actor details such as first name, last name, actor id.
+
+  <img src="Code_Output/actor_table.PNG" width="550" height="150"/>&nbsp; 
+
+* CUSTOMER: Customer details such as name, email, and activity status.
+
+  <img src="Code_Output/CUSTOMER TABLE.PNG" width="550" height="150"/>&nbsp;
+
+* RENTAL: Records of movie rentals.
+
+  <img src="Code_Output/RENTAL TABLE.PNG" width="550" height="150"/>&nbsp;
+
+* INVENTORY: Inventory information for each store.
+
+  <img src="Code_Output/INVENTORY TABLE.PNG" width="400" height="150"/>&nbsp;
+
+* FILM: Movie details including title, rating, rental rate, and special features.
+
+  <img src="Code_Output/FILM TABLE.PNG" width="550" height="150"/>&nbsp;
+
+* FILM_CATEGORY: Categories associated with films.
+
+  <img src="Code_Output/film_category.PNG" height="150"/>&nbsp;
+
+* PAYMENT: Payment transactions.
+
+  <img src="Code_Output/payment_table.PNG" height="150"/>&nbsp;
+
+ ## Tools & Library Used
+
+  [<img src="Code_Output/Mysql_logo.png" width="100"/>](https://www.mysql.com/) &nbsp;
+  
+## Project Result
+
+[Click here to get full code](https://github.com/F7-bit/MOVIE_RENTAL_SHOP_DATA_ANALYSIS_SQL_PROJECT/blob/main/CODE_MOVIE_RENTAL.sql)
+
+## Query Task
+
+1. Extract the first name, last name, and email address of all customers to prepare a comprehensive contact list for the marketing team.
+
+ <img src="Code_Output/email ids.PNG"  height="150"  />&nbsp;
+
+2. Analyze the rental rates and determine the number of movies in each rental category.
+
+ <img src="Code_Output/rental rate category.PNG" />&nbsp;
+
+3. Find the rating category with the most films.
+
+ <img src="Code_Output/RATING CATEGORY COUNT.PNG" />&nbsp;
+
+4. Find the most prevalent rating in each store.
+
+ <img src="Code_Output/RATING CATEGORY PER STORE.PNG" />&nbsp;
+
+5. List of films with their Name, Category, and Language.
+
+<img src="Code_Output/TITLE_LANG_CATEGORY.PNG" />&nbsp;
+
+6. Count how many times each movie has been rented.
+
+<img src="Code_Output/POPULARITY_MOST_RENTAL.PNG" />&nbsp;
+
+7. Top 10 films by revenue
+
+<img src="Code_Output/TOP 10 REVENUE.PNG" />&nbsp;
+
+8. Customer with the highest spending
+
+<img src="Code_Output/TOP 1 SPENDING CUST.PNG" />&nbsp;
+
+9. Which store has brought the most revenue
+
+<img src="Code_Output/PER STORE REVENUE.PNG" />&nbsp;
+
+10. How many rentals do we have for each month
+
+<img src="Code_Output/RENTALS_PER_MONTH.PNG" />&nbsp;
+
+11. Identify and reward customers who have rented a minimum of 30 times, including their phone number and email ID
+
+<img src="Code_Output/LOYAL_30_CUST_ALL_DESC.PNG" />&nbsp;
+
+12. Retrieve all payment records for the first 100 customers, ordered by customer ID
+
+<img src="Code_Output/FIRST_100_CUST.PNG" />&nbsp;
+
+13. Retrieve payment records over $5 for the first 100 customers (ordered by customer ID), since January 1, 2006
+
+<img src="Code_Output/OVER_$5_.PNG" />&nbsp;
+
+14. Retrieve all payment records from the first 100 customers, along with payments over $5 from any customer
+
+<img src="Code_Output/SPECIFIC_CUST.PNG" />&nbsp;
+
+15. Retrieve a list of films that include a 'Behind the Scenes' special feature
+
+<img src="Code_Output/SPECIAL_FEATURES.PNG" />&nbsp;
+
+16. Retrieve unique movie ratings along with the count of movies for each rating
+
+<img src="Code_Output/RATING_NOOF_MOVIES.PNG" />&nbsp;
+
+17. Retrieve a count of titles, grouped by rental duration
+
+<img src="Code_Output/RATING_RENTAL_SLICED_@.PNG" />&nbsp;
+
+18. Retrieve movie ratings, the count of movies for each rating, average movie length, and compare with rental duration
+
+<img src="Code_Output/RATING_COUNT_LENGTH.PNG" />&nbsp;
+
+19. Retrieve the count of films, along with the average, minimum, and maximum rental rates, grouped by replacement cost 
+
+<img src="Code_Output/REPLACEMENT_COST_IF.PNG" />&nbsp;
+
+20. Retrieve a list of customer IDs who have rented fewer than 15 times in total
+
+<img src="Code_Output/LESS_THAN_15_RENT.PNG" />&nbsp;
+
+21. Retrieve a list of all film titles, along with their lengths and rental rates, sorted from longest to shortest
+
+<img src="Code_Output/length&rentalprice.PNG" />&nbsp;
+
+22. Categorize movies as per length
+
+<img src="Code_Output/movies_length_bucket.PNG" />&nbsp;
+
+23. Categorize movies to recommend based on various age groups and demographics
+
+<img src="Code_Output/recomm_sys.PNG" />&nbsp;
+
+24. Retrieve a list of the first and last names of all customers, along with their store and activity status (e.g., 'store 1 active', 'store 1 inactive', 'store 2 active', or 'store 2 inactive')
+
+<img src="Code_Output/CUST_STORE_ACTIVITY.PNG" />&nbsp;
+
+25. Retrieve a list of all films in inventory, including the film title, description, associated store_id, and inventory_id
+
+<img src="Code_Output/FILM_INVENTORY.PNG" />&nbsp;
+
+26. Retrieve the first name, last name, and the count of movies for each actor
+
+<img src="Code_Output/ACTOR_NO_OF_FILMS.PNG" />&nbsp;
+
+27. Retrieve a list of all film titles, along with the count of actors associated with each title
+
+<img src="Code_Output/INVESTOR_REQUEST.PNG" />&nbsp;
+
+28. Retrieve a list of all actors, along with the titles of the films they appear in
+
+<img src="Code_Output/ACTOR_N_APPEARANCE.PNG" />&nbsp;
+
+29. Retrieve a list of distinct film titles and their descriptions currently available in the inventory at Store 2
+
+<img src="Code_Output/EXPANSION.PNG" />&nbsp;
+
+30. Retrieve a unified list of all staff and advisor names, including a column indicating their role as either 'Staff' or 'Advisor'
+
+<img src="Code_Output/CONFERENCE_LIST.PNG" />&nbsp;
+
+## Insights and Conclusions
+
+1.**Customer Behavior**
+
+**Top Customers**: A small percentage of customers contribute significantly to revenue, highlighting the importance of customer retention strategies for this segment.
+
+**Inactive Customers**: Identified a noticeable portion of inactive customers, suggesting the need for re-engagement campaigns to increase activity levels.
+
+2.**Movie Performance**
+
+**Popular Genres**: Action and Comedy emerged as the most rented genres, indicating their high demand among customers.
+
+**Revenue Drivers**: High-rated movies with special features contributed significantly to revenue, emphasizing the importance of maintaining a quality selection.
+
+3.**Revenue Insights**
+
+**Peak Revenue Periods**: Rental activity peaked during weekends, offering opportunities for targeted promotions and events.
+
+**Late Fees**: A substantial portion of revenue came from late fees, signaling a need to balance fee structures to avoid customer dissatisfaction while maintaining profitability.
+
+4.**Inventory Management**
+
+**Low Turnover Titles**: Some movies had consistently low rental rates, suggesting they may need price adjustments or removal from inventory.
+
+**Optimized Stocking**: Branches with optimized inventory turnover performed better, highlighting the value of data-driven stocking strategies.
+
+5.**Operational Efficiency**
+
+**Branch Comparison**: Identified high-performing branches with better customer engagement and inventory utilization. Underperforming branches may benefit from targeted management interventions.
+
+**Peak Times**: The busiest rental periods aligned with evenings and weekends, suggesting staffing adjustments during these times to improve customer experience.
 
 
-# Tools & Library Used
-[<img src="./MySQL LOGO.jpg" alt="myql-logo" width="100"/>](https://www.mysql.com/) &nbsp;
+## Key Recommendations
 
-# Project Result
+1.**Customer Engagement**: Launch loyalty programs for top customers and reactivation campaigns for inactive ones.
 
-[Click here to get full code](https://github.com/mohammadomar10/MOVIES-RENTAL-SQL-PROJECT/blob/main/CODES.sql)
+2.**Inventory Strategy**: Focus on stocking high-demand genres and phasing out underperforming titles.
 
-# Query Task
+3.**Revenue Optimization**: Review rental and late fee pricing to balance customer satisfaction with profitability.
 
-1. How can we extract the first name, last name, and email address of all customers to prepare a comprehensive contact list for the marketing team?
+4.**Branch Efficiency**: Provide underperforming branches with targeted support, such as tailored inventory and staff training.
 
-[<img src="./CODE OUTPUT/email ids.PNG" width="300"/>]&nbsp;
-
-2. What is the total number of movies in the inventory that are available for rent at the lowest rental rate of $0.99?
-
-[<img src="CODE OUTPUT/CHEAPEST RENTALS.PNG" width="300"/>]&nbsp;
-
-3. How can we categorize all movies based on their rental rates and determine the count of movies in each category?
-
-[<img src="CODE OUTPUT/rental rate category.PNG" width="300"/>]&nbsp;
-
-4. Which movie rating (e.g., PG, PG-13, R) has the highest number of titles in the inventory, and how can this information help optimize inventory management?
-
-
-
-5. What is the total count of PG-rated movies that have been rented, and what does this indicate about customer preferences?
-
-
-
-6. What are the inventory IDs and corresponding film titles for movies that are currently rented out, and how can this data help track rental activity?
-
-
-
-7. How many rentals have been made for each movie rating category, and what insights can be drawn regarding the popularity of specific ratings?
-
-
-
-8. How much revenue has been generated for each movie rating category, and how can this data assist in setting pricing strategies?
-
-
-
-9. How many customers are actively renting movies, and what trends can be observed regarding their rental behavior?
-
-
-
-10. What is the number of movies rented for each rental duration category, and how can this data inform inventory optimization?
-
-
-
-11. Which movie titles are rented most frequently, and how can this information help identify popular trends?
-
-
-
-12. Who are the top customers based on the number of movies rented, and how can this data be used for personalized marketing strategies?
-
-
-
-13. What is the total revenue generated by each customer, and how can this information highlight valuable customers for loyalty programs?
